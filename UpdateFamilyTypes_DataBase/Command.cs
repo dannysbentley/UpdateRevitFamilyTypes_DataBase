@@ -25,7 +25,9 @@ namespace UpdateFamilyTypes_DataBase
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
-            
+
+            ProgramUpdateTypes update = new ProgramUpdateTypes();
+            update.Compare(doc);
 
             return Result.Succeeded;
         }
