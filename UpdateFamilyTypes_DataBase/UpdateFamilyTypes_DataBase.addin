@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command UpdateFamilyTypes_DataBase</Text>
+    <Description>Some description for UpdateFamilyTypes_DataBase</Description>
+    <Assembly>UpdateFamilyTypes_DataBase.dll</Assembly>
+    <FullClassName>UpdateFamilyTypes_DataBase.Command</FullClassName>
+    <ClientId>3ab8597f-41b3-451f-9d41-21b4cd2729f8</ClientId>
+    <VendorId>Danny Bentley</VendorId>
+    <VendorDescription>Danny Bentley</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application UpdateFamilyTypes_DataBase</Name>
+    <Assembly>UpdateFamilyTypes_DataBase.dll</Assembly>
+    <FullClassName>UpdateFamilyTypes_DataBase.App</FullClassName>
+    <ClientId>7fbc5c1d-51b5-4a07-952b-842cd5d12bf1</ClientId>
+    <VendorId>Danny Bentley</VendorId>
+    <VendorDescription>Danny Bentley</VendorDescription>
+  </AddIn>
+</RevitAddIns>
